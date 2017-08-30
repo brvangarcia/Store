@@ -1,0 +1,17 @@
+<table border="1">
+  <thead>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each data}}
+      <tr>
+        <td>{{fullName}}</td>
+        <td>{{email}}</td>
+        <td>{{id}}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>

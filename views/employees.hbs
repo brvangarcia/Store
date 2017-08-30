@@ -1,0 +1,25 @@
+<table border="1">
+  <thead>
+    <tr>
+      <th>Full Name</th>
+      <th>Email</th>
+      <th>Phone</th>
+      <th>Hire Date</th>
+      <th>Salary</th>
+      <th>Comission</th>
+    </tr>
+  </thead>
+  <tbody>
+     {{#each data}}
+      <tr>
+        <td>{{fullName}}</td>
+        <td>{{email}}</td>
+        <td>{{phoneNumber}}</td>
+        <td>{{hireDate}}</td>
+        <td>{{salary}}</td>
+        <td>{{comissionPercent}}</td>
+        <td>{{id}}</td>
+      </tr>
+     {{/each}}
+  </tbody>
+</table>
